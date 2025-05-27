@@ -1,18 +1,33 @@
-
 # Silicon Labs Platform Applications #
 
-This repo contains example projects that demonstrate various applicaitons using the peripherals of Silicon Labs EFM32 and EFR32 parts.
+This repository contains platform application projects that showcase how to leverage the features and peripherals of Silicon Labs EFR32 devices. Each project demonstrates practical use cases, best practices, and integration techniques for building robust IoT solutions on Silicon Labs hardware.
 
+We invite the community to contribute their own projects, share innovative ideas, and collaborate with others. By participating, you help expand the collection of resources available to all developers and foster a vibrant ecosystem around Silicon Labs platforms. Whether you are submitting a new project, improving documentation, or providing feedback, your contributions are highly valued and appreciated.
 
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
+Explore the projects to accelerate your development, gain insights into platform capabilities, and connect with fellow developers in the Silicon Labs community.
 
 ## Requirements ##
 
 1. Silicon Labs EFR32 Development Kit
 2. Simplicity Studio 5
-3. Compatible GSDK version that specified in each project's readme file. You can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk)
+3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+
+## Project list ##
+
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+
+## Project Format Example ##
+
+![Project Format](../../../resources/project_format.png)
+
+## Project structure ##
+
+* **device_root**
+  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
+  * **lib**
+    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Documentation ##
 

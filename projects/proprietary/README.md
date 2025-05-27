@@ -11,31 +11,20 @@
   </tr>
 </table>
 
-# Silicon Labs Proprietary #
+# Silicon Labs Proprietary Application Examples #
 
 Silicon Labs EFR parts support the use of proprietary wireless protocols. Proprietary wireless allows for customizable physical protocols. Silicon Labs provides two ways to create proprietary wireless applications. The first is RAIL or Radio Abstraction Interface Layer. RAIL provides a common API to access the radio on supported parts. This API can be used to build fully customized network stacks from scratch. Second, there is Connect, which is a fully-featured stack that can be customized for an application's needs. While it does not provide the flexibility that RAIL provides, it comes with many features already implemented, like the ability to form star and extended star networks, security features, and 802.15.4 link layer compatibility.
 
+We encourage the community to contribute new examples, enhancements, and ideas to this repository. Whether you have a unique use case, improvements to existing code, or helpful documentation, your contributions help others learn and innovate. Share your projects, collaborate with other developers, and help grow the ecosystem of proprietary wireless solutions for Silicon Labs devices.
+
 ## Submodules ##
 
-- proprietary\_connect
-  - All proprietary examples based on the Connect stack.
-- proprietary\_rail
-  - All proprietary examples based on the RAIL API.
+- proprietary_application
+  Example projects using the Silicon Labs Connect stack for proprietary wireless applications, demonstrating features like network formation, security, and 802.15.4 compatibility.
 
-## Supported Series 1 Devices ##
+## Supported Devices ##
 
-- EFR32MG1
-- EFR32BG1
-- EFR32FG1
-- EFR32MG12
-- EFR32BG12
-- EFR32FG12
-- EFR32MG13
-- EFR32BG13
-- EFR32FG13
-- EFR32MG14
-- EFR32BG14
-- EFR32FG14
+- All Silicon Labs Devices that are capable of Wireless Communication.
 
 ## Documentation ##
 

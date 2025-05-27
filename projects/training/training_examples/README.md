@@ -1,12 +1,14 @@
-# Silicon Labs Z-Wave Applications #
+# Silicon Labs Training #
 
-The Silicon Labs Z-Wave wireless solutions are end-to-end solutions with software and hardware building blocks for both controllers and end devices for home security and smart home devices including door locks, thermostats, shades, switches, and sensors. Z-Wave software provides the foundational features required in the Z-Wave specification and enables you to focus on your application with no need to be a protocol expert.
+This repository provides hands-on training examples for developing applications on Silicon Labs EFR32 devices. Each example is designed to teach key concepts, demonstrate integration techniques, and showcase best practices for building secure and efficient wireless solutions using Silicon Labs hardware.
 
-We encourage the community to contribute their own Z-Wave protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with Z-Wave wireless technologies.
+We invite learners and contributors to explore these training projects, share their own examples, and collaborate to expand the collection. Whether you are submitting new training materials, improving documentation, or providing feedback, your involvement helps foster a stronger developer community.
+
+Use these examples to accelerate your learning, gain practical experience with the platform, and connect with others working on Silicon Labs technologies.
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs EFR32 Development Kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
@@ -27,13 +29,9 @@ We encourage the community to contribute their own Z-Wave protocol projects, sha
   * **lib**
     * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
-## Project Examples ##
-
-You can refer to our [Z-Wave Applications Examples](https://github.com/SiliconLabs/z_wave_applications) as a starting point.
-
 ## Documentation ##
 
-Official documentation can be found at our [Developer Documentation](https://www.silabs.com/products/wireless/mesh-networking/z-wave/specification) page.
+Official documentation can be found at our [Developer Documentation](https://www.silabs.com/support/training.ap-language_english) page.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 

@@ -1,11 +1,32 @@
 
 # Silicon Labs Zigbee Application Examples #
 
-This repo demonstrates some of the applications that can be built on top of the Silicon Labs Zigbee stack.
+Silicon Labs devices support Zigbee, delivering reliable, low-power wireless connectivity for smart home, building automation, and industrial IoT applications—engineered for seamless interoperability, robust mesh networking, and future-ready Matter integration.
+
+We urge the community to contribute their own Zigbee protocol projects, share technical insights, and work together to improve the existing materials. Your participation—whether by proposing new projects, improving documentation, or providing feedback—helps to grow the ecosystem and benefit developers working with Zigbee wireless technology.
+
+## Requirements ##
+
+1. Silicon Labs SiWx91x development kit
+2. Simplicity Studio 5
+3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+
+## Project list ##
+
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
 ## Project Format Example ##
 
 ![Project Format](../../../resources/project_format.png)
+
+## Project structure ##
+
+* **device_root**
+  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
+  * **lib**
+    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Documentation ##
 

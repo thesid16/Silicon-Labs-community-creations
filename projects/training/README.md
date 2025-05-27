@@ -13,7 +13,7 @@
 
 # Silicon Labs Training #
 
-Hit the ground running with the latest how-to information, tutorials, and training to give you the know-how you need to accelerate your development process and get your products to market as quickly as possible.
+Kickstart your development with comprehensive resources designed to help you master Silicon Labs EFM32 and EFR32 platforms. This repository offers step-by-step tutorials, in-depth how-to guides, practical training modules, and expert tips to streamline your workflow—empowering both newcomers and experienced developers to accelerate their projects and bring products to market efficiently.
 
 ## Submodules ##
 

@@ -13,46 +13,75 @@
 
 # Silicon Labs Bluetooth #
 
-Silicon Labs' Bluetooth chipsets deliver high performance, low energy and easy-to-use Bluetooth solutions integrated into a small form factor package. The ultra-low power operating modes and fast wake-up times of the Silicon Labs' energy-friendly 32-bit MCUs, combined with the low transmit and receive power consumption of the Bluetooth radio, result in a solution optimized for battery-powered applications.
+Silicon Labs' Bluetooth chipsets deliver high performance, low energy, and easy-to-use Bluetooth solutions integrated into a small form factor package. The ultra-low power operating modes and fast wake-up times of Silicon Labs' energy-friendly 32-bit MCUs, combined with the low transmit and receive power consumption of the Bluetooth radio, result in a solution optimized for battery-powered applications.
+
+This repository is dedicated to the community—created by developers, for developers. Here, you can find, share, and contribute Bluetooth application examples, best practices, and innovative ideas. We encourage you to participate by submitting your own projects, improvements, and feedback. Together, we can accelerate development, solve challenges, and inspire new solutions for Bluetooth-enabled devices. Join the conversation, collaborate, and help grow a vibrant ecosystem around Silicon Labs Bluetooth technology!
 
 ## Submodules ##
 
-- bluetooth\_applications
-  - Examples that use the Bluetooth stack to implement complete applications.
-- bluetooth\_peripherals
-  - Examples that highlight how to integrate SoC peripherals into the stack.
-- bluetooth\_stack\_features
-  - Examples that highlight stack handling of the Bluetooth specification. The stack features that are demonstrated are listed below.
-    - Advertising
-    - Connections
-    - GATT Protocol
-    - Security
-    - Persistent Storage
-    - Firmware Upgrade
-    - NCP
-    - System and Performance
-- bluetooth\_mesh\_applications
-  - Examples that use the Bluetooth Mesh stack to implement complete applications.
-- bluetooth\_mesh_stack\_features
-  - Examples that highlight stack handling of the Bluetooth Mesh specification.
+- **bluetooth_applications**
+  Complete application examples utilizing the Bluetooth stack.
 
-## Supported Series 1 Devices ##
+- **bluetooth_peripherals**
+  Examples demonstrating integration of SoC peripherals with the Bluetooth stack.
 
-- EFR32MG1
-- EFR32BG1
-- EFR32MG12
-- EFR32BG12
-- EFR32MG13
-- EFR32BG13
-- EFR32MG14
-- EFR32BG14
+- **bluetooth_stack_features**
+  Examples showcasing key Bluetooth stack features, including:
+  - Advertising
+  - Connections
+  - GATT Protocol
+  - Security
+  - Persistent Storage
+  - Firmware Upgrade
+  - NCP (Network Co-Processor)
+  - System and Performance
 
-## Supported Series 2 Devices ##
+- **bluetooth_mesh_applications**
+  Complete application examples using the Bluetooth Mesh stack.
 
-- EFR32MG21
-- EFR32BG21
-- EFR32MG22
-- EFR32BG22
+- **bluetooth_mesh_stack_features**
+  Examples demonstrating key features of the Bluetooth Mesh stack.
+
+## Supported Devices ##
+
+| **Series 1 Devices** | **Series 2 Devices** |
+|----------------------|----------------------|
+| [EFR32MG1](https://www.silabs.com/wireless/zigbee/efr32mg1-series-1-socs) | [EFR32MG21](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs) |
+| [EFR32BG1](https://www.silabs.com/wireless/bluetooth/efr32bg1-series-1-socs) | [EFR32BG21](https://www.silabs.com/wireless/bluetooth/efr32bg21-series-2-socs) |
+| [EFR32MG12](https://www.silabs.com/wireless/zigbee/efr32mg12-series-1-socs) | [EFR32MG22](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs) |
+| [EFR32BG12](https://www.silabs.com/wireless/bluetooth/efr32bg12-series-1-socs) | [EFR32BG22](https://www.silabs.com/wireless/bluetooth/efr32bg22-series-2-socs) |
+| [EFR32MG13](https://www.silabs.com/wireless/zigbee/efr32mg13-series-1-socs) | [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs)                      |
+| [EFR32BG13](https://www.silabs.com/wireless/bluetooth/efr32bg13-series-1-socs) | [EFR32BG24](https://www.silabs.com/wireless/bluetooth/efr32bg24-series-2-socs)                      |
+| [EFR32MG14](https://www.silabs.com/wireless/zigbee/efr32mg14-series-1-socs) | [EFR32MG26](https://www.silabs.com/wireless/zigbee/efr32mg26-series-2-socs)                     |
+| [EFR32BG14](https://www.silabs.com/wireless/bluetooth/efr32bg14-series-1-socs) | [EFR32BG26](https://www.silabs.com/wireless/bluetooth/efr32bg26-series-2-socs)                     |
+
+## Bootloader ##
+
+Bluetooth Mesh projects do not include bootloaders by default, but a bootloader is required for device firmware upgrade (DFU) and reliable field updates. To ensure your mesh application runs correctly, you must either:
+
+- Flash the appropriate bootloader to your device, or
+- Remove DFU functionality from your project.
+
+If your mesh application does not require DFU, you can remove the Bootloader Application Interface software component and its dependencies. This places your application code at the start of flash memory, eliminating the need for a bootloader. Note that removing DFU functionality will prevent future firmware upgrades via DFU.
+
+To add a bootloader, you have two options:
+
+- **Create and flash a bootloader project:**  
+    Build and flash a bootloader suitable for your device:
+  - For Series 1 devices, use a Bluetooth in-place OTA DFU or Internal Storage bootloader.
+  - For Series 2 devices, use a Bluetooth Apploader OTA DFU bootloader.
+
+- **Use a pre-compiled demo:**  
+    Running a pre-compiled demo from the Launcher view will flash both the bootloader and application images to your device. Afterward, you can overwrite the demo application with your own image, while the bootloader remains intact.
+  - For mesh projects, use the Bluetooth Mesh - Light or Bluetooth Mesh - Switch demo.
+
+**Important Notes:**
+
+- When flashing your application, use the `.hex` or `.s37` output files. Flashing `.bin` files may erase the bootloader.
+- On Series 1 devices (EFR32xG1x), both first and second stage bootloaders must be flashed. This can be done by flashing the `-combined.s37` file generated by the bootloader project.
+- On Series 2 devices, mesh example projects require a Bluetooth Apploader OTA DFU bootloader by default. This bootloader requires significant flash space and shifts the application start address. The shift is managed automatically by the Apploader Support for Applications software component, which is installed by default. If you choose a different bootloader type, remove this component to revert the application start address. Note that removing it disables Apploader OTA DFU, but you can still implement application-level OTA DFU by installing the Application OTA DFU software component.
+
+For further details, refer to [UG103.6: Bootloader Fundamentals](https://www.silabs.com/documents/public/user-guides/ug103-06-fundamentals-bootloading.pdf) and [UG489: Silicon Labs Gecko Bootloader User's Guide for GSDK 4.0 and Higher](https://www.silabs.com/documents/public/user-guides/ug489-gecko-bootloader-user-guide-gsdk-4.pdf).
 
 ## Documentation ##
 

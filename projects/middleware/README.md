@@ -13,7 +13,9 @@
 
 # Silicon Labs Middleware #
 
-This folder contains middleware that can be used with Silicon Labs products. These libraries can be used to provide additional capabilities to your application.
+This folder contains middleware libraries designed to extend the functionality of Silicon Labs devices. These libraries offer reusable components and features—such as communication protocols, security, and peripheral drivers—that can be integrated into your applications to accelerate development and add advanced capabilities.
+
+As a community-driven repository, we encourage contributions from developers, hobbyists, and partners. Share your own middleware modules, improvements, or documentation to help others benefit from your experience. Collaborate, learn, and innovate together by submitting pull requests, reporting issues, or participating in discussions. Your contributions help make this resource more valuable for everyone in the Silicon Labs community.
 
 ## Submodules ##
 

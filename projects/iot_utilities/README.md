@@ -13,9 +13,11 @@
 
 # Silicon Labs IoT Utilities #
 
-This repo contains various utilities which can be used with Silicon Labs products.
+This repository provides a collection of utilities designed to assist with the development, debugging, and analysis of IoT solutions using Silicon Labs hardware and software. These tools aim to simplify common tasks, streamline workflows, and enhance productivity for developers working with Silicon Labs platforms.
 
-## Examples ##
+As a community-driven project, we encourage contributions, feedback, and collaboration from developers of all experience levels. Whether you want to share your own utilities, improve existing tools, or help others by sharing knowledge, your participation is welcome. Together, we can build a valuable resource for the entire Silicon Labs IoT community.
+
+## Submodules ##
 
 - Java Implementation of PCAP and PCAPNG File Format
 

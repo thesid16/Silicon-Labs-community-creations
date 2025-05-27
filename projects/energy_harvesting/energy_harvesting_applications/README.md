@@ -1,9 +1,6 @@
 # Silicon Labs Energy Harvesting Applications - Simplicity SDK Extension #
 
-This repo contains documentation, demos, examples and all the code needed for the Energy Harvesting extension. The content of the repository is meant to be accessed through Silicon Labs Simplicity Studio and should not be used directly.
-
-## Project Examples ##
-[Energy Harvesting Examples](https://github.com/SiliconLabs/energy_harvesting_applications)
+This repository provides comprehensive documentation, demonstration projects, example applications, and all necessary source code for the Energy Harvesting extension for Silicon Labs devices. It is designed to be integrated with Silicon Labs Simplicity Studio, enabling developers to explore, evaluate, and build energy harvesting solutions using supported hardware and software tools. While you can browse the repository, it is recommended to access and use its content through Simplicity Studio for the best experience, as direct usage outside the IDE may not be fully supported.
 
 ## Requirements ##
 
@@ -15,12 +12,18 @@ This repo contains documentation, demos, examples and all the code needed for th
 ### Software ###
 
 - [Simplicity Studio v5 IDE](https://www.silabs.com/developers/simplicity-studio)
-- [Simplicity SDK Version 2024.6.2](https://github.com/SiliconLabs/simplicity_sdk/releases/tag/v2024.6.2)
+- Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 - [Simplicity Connect Mobile App](https://www.silabs.com/developer-tools/simplicity-connect-mobile-app)
 
 ### External tools ###
 
 - Power profiling tool: [Qoitech Otii Ace Pro](https://www.qoitech.com/otii-ace/)
+
+## Project list ##
+
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
 ## How to add to Simplicity Studio IDE ##
 
@@ -36,7 +39,6 @@ This repo contains documentation, demos, examples and all the code needed for th
   - Restart Simplicity Studio
 
 > Make sure that **Evaluation** quality software components are enabled in the Software Component view.
-
 
 ## Drivers ##
 
@@ -57,6 +59,10 @@ This repo contains documentation, demos, examples and all the code needed for th
         </tr>
     </tbody>
 </table>
+
+## Project Examples ##
+
+You can refer to our [Energy Harvesting Examples](https://github.com/SiliconLabs/energy_harvesting_applications) as a starting point.
 
 ## Report Bugs & Get Support ##
 

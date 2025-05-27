@@ -1,30 +1,39 @@
-
 # Silicon Labs Bluetooth Mesh Applications #
 
-The Silicon Labs Bluetooth Mesh stack allows for a wide variety applications to be built on its foundation. This repo showcases some example applications built using the Silicon Labs Bluetooth Mesh stack.
+The Silicon Labs Bluetooth Mesh stack delivers a robust, secure, and scalable platform for wireless mesh networking in IoT devices. Supporting the Bluetooth Mesh specification, it enables reliable many-to-many device communication, making it ideal for smart lighting, building automation, sensor networks, and other large-scale IoT deployments.
 
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
+By exploring and contributing to these mesh examples, developers can deepen their understanding of Bluetooth Mesh architecture, provisioning, models, and integration with Silicon Labs hardware and tools. Whether you are building commercial, industrial, or smart home mesh solutions, these resources are designed to accelerate your development and help you deliver dependable Bluetooth Mesh-enabled products.
 
 ## Requirements ##
 
 1. Silicon Labs EFR32 Development Kit
 2. Simplicity Studio 5
-3. Compatible SDK version that specified in each project's readme file. You can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
-4. Third-Party Hardware Drivers extension, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension as specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
+## Project list ##
 
-## Documentation ##
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
-Official documentation can be found in our [Developer Documentation PDF](https://www.silabs.com/documents/public/reference-manuals/bluetooth-le-and-mesh-software-api-reference-manual.pdf).
+## Project Format Example ##
+
+![Project Format](../../../resources/project_format.png)
+
+## Project structure ##
+
+* **device_root**
+  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
+  * **lib**
+    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+To report bugs in the Bluetooth Mesh Application Examples, please create a new "Issue" in the "Issues" section of this repo. Reference the board, project, and source files associated with the bug, and include line numbers. If you are proposing a fix, also include information on the proposed fix. These examples are provided as-is, and there is no guarantee that they will be updated to address reported issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
 
-## Disclaimer
+## Disclaimer ##
 
-The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is. It is not suitable for production environments. In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.
+The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY, meaning the code provided has not been formally tested and is provided as-is. It is not suitable for production environments. This code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.

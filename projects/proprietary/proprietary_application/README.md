@@ -1,12 +1,14 @@
-# Silicon Labs Z-Wave Applications #
+# Silicon Labs Proprietary Applications #
 
-The Silicon Labs Z-Wave wireless solutions are end-to-end solutions with software and hardware building blocks for both controllers and end devices for home security and smart home devices including door locks, thermostats, shades, switches, and sensors. Z-Wave software provides the foundational features required in the Z-Wave specification and enables you to focus on your application with no need to be a protocol expert.
+This repository contains proprietary application projects designed to demonstrate the advanced features and capabilities of Silicon Labs EFR32 devices. Each project highlights real-world use cases, integration methods, and best practices for developing secure and efficient proprietary wireless solutions on Silicon Labs hardware.
 
-We encourage the community to contribute their own Z-Wave protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with Z-Wave wireless technologies.
+We encourage the community to contribute their own proprietary protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with proprietary wireless technologies.
+
+Browse the available projects to accelerate your proprietary application development, deepen your understanding of the platform, and engage with other developers in the Silicon Labs community.
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs EFR32 Development Kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
@@ -29,11 +31,11 @@ We encourage the community to contribute their own Z-Wave protocol projects, sha
 
 ## Project Examples ##
 
-You can refer to our [Z-Wave Applications Examples](https://github.com/SiliconLabs/z_wave_applications) as a starting point.
+You can refer to our [Proprietary Rail Examples](https://github.com/SiliconLabs/proprietary_rail) as a starting point.
 
 ## Documentation ##
 
-Official documentation can be found at our [Developer Documentation](https://www.silabs.com/products/wireless/mesh-networking/z-wave/specification) page.
+Official documentation can be found at our [Developer Documentation](https://docs.silabs.com/rail/latest/rail-start/) page.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
