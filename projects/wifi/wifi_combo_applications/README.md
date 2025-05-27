@@ -29,16 +29,6 @@ Community members are invited to contribute their own combo application projects
   * **lib**
     * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
-## Working with Projects ##
-
-1. To add an external repository, perform the following steps.
-
-    * From Simpilicity Studio 5, go to **Preferences > Simplicity Studio > External Repos**. Here you can add the repo `https://github.com/SiliconLabs/wifi_applications.git`
-
-    * Cloning and then selecting the branch, tag, or commit to add. The default branch is Master. This repo cloned to `<path_to_the_SimplicityStudio_v5>\developer\repos\`
-
-2. From Launcher, select your device from the "Debug Adapters" on the left before creating a project. Then click the **EXAMPLE PROJECTS & DEMOS** tab -> check **wifi_applications** under **Provider** to show a list of Wi-Fi application example projects compatible with the selected device. Click CREATE on a project to generate a new application from the selected template.
-
 ## Documentation ##
 
 The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.

@@ -1,6 +1,7 @@
 # Silicon Labs Wi-Fi Applications #
 
 Silicon Labs Wi-Fi solutions, based on the SiWx91x family of SoCs and modules, enable a variety of wireless applications such as IoT devices, smart home products, and industrial automation. This repository is dedicated to community-created SLCP (Simplicity Studio Component Project) example applications that showcase essential Wi-Fi features—including station and access point modes, secure TLS/SSL communication, cloud connectivity (MQTT, HTTP), OTA firmware updates, power management, and sensor or peripheral integration.
+
 Community members are encouraged to contribute their own projects, share enhancements, and collaborate by submitting pull requests or opening issues. For setup instructions, hardware compatibility, and SDK requirements, refer to the README of each individual project.
 
 ## Requirements ##
@@ -27,16 +28,6 @@ Community members are encouraged to contribute their own projects, share enhance
   * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
   * **lib**
     * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
-
-## Working with Projects ##
-
-1. To add an external repository, perform the following steps.
-
-    * From Simpilicity Studio 5, go to **Preferences > Simplicity Studio > External Repos**. Here you can add the repo `https://github.com/SiliconLabs/wifi_applications.git`
-
-    * Cloning and then selecting the branch, tag, or commit to add. The default branch is Master. This repo cloned to `<path_to_the_SimplicityStudio_v5>\developer\repos\`
-
-2. From Launcher, select your device from the "Debug Adapters" on the left before creating a project. Then click the **EXAMPLE PROJECTS & DEMOS** tab -> check **wifi_applications** under **Provider** to show a list of Wi-Fi application example projects compatible with the selected device. Click CREATE on a project to generate a new application from the selected template.
 
 ## Documentation ##
 

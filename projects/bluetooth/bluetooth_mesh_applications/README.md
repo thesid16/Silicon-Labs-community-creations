@@ -28,6 +28,10 @@ By exploring and contributing to these mesh examples, developers can deepen thei
   * **lib**
     * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
+## Project Examples ##
+
+You can refer to our [Bluetooth Applications Examples](https://github.com/SiliconLabsSoftware/bluetooth_applications) as a starting point.
+
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
 To report bugs in the Bluetooth Mesh Application Examples, please create a new "Issue" in the "Issues" section of this repo. Reference the board, project, and source files associated with the bug, and include line numbers. If you are proposing a fix, also include information on the proposed fix. These examples are provided as-is, and there is no guarantee that they will be updated to address reported issues.

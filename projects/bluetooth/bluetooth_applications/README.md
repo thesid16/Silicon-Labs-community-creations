@@ -28,6 +28,10 @@ By exploring and contributing to these examples, developers can deepen their und
   * **lib**
     * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
+## Project Examples ##
+
+You can refer to our [Bluetooth Applications Examples](https://github.com/SiliconLabsSoftware/bluetooth_applications) as a starting point.
+
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
 To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.

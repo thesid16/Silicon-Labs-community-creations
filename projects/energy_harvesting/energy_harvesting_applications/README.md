@@ -25,50 +25,16 @@ This repository provides comprehensive documentation, demonstration projects, ex
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
-## How to add to Simplicity Studio IDE ##
-
-- Clone the repository somewhere on your PC
-
-  `git clone https://github.com/SiliconLabs/energy_harvesting_applications.git`
-
-- Add the SDK extension to the SiSDK
-
-  - In Simplicity Studio go to **Preferences** → **Simplicity Studio** → **SDKs** and select the Simplicity SDK Suite to which the SDK extension will be added. Click **Add Extension…**
-  - Click **Browse** and navigate to the root folder of the package above and click **Select Folder**.
-  - The SDK extension should be displayed in the Detected SDK Extension window with the **Energy Harvesting** name, version, and path. Click **OK** and then **Trust** and **Apply and Close**.
-  - Restart Simplicity Studio
-
-> Make sure that **Evaluation** quality software components are enabled in the Software Component view.
-
-## Drivers ##
-
-<table>
-    <tbody>
-        <tr>
-            <td colspan="3" align="left"><b>Power Management</b></td>
-        </tr>
-      <tr></tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;AEM13920 - Energy Harvesting PMIC</td>
-            <td>
-                <a href="./driver/public/aem13920/">Driver</a>
-            </td>
-            <td>
-                <a href="./driver/docs/AEM13920.md">Document</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
 ## Project Examples ##
 
-You can refer to our [Energy Harvesting Examples](https://github.com/SiliconLabs/energy_harvesting_applications) as a starting point.
+You can refer to our [Energy Harvesting Examples](https://github.com/SiliconLabsSoftware/energy_harvesting_applications) as a starting point.
 
-## Report Bugs & Get Support ##
+## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the [Energy Harvesting Extension](https://github.com/SiliconLabs/energy_harvesting_applications) projects, you can either
+To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
-- create a new "Issue" in the "Issues" section of this repo
-- or report any issues you found to us via [Silicon Labs Community](https://www.silabs.com/community)
+Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
 
-Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+## Disclaimer ##
+
+The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.
