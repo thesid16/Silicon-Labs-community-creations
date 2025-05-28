@@ -6,9 +6,9 @@ We encourage the community to contribute their own WiSun projects, share technic
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs EFR32 development kit
 2. Simplicity Studio 5
-3. Compatible SDK version that specified in each project's readme file. You can install it via Simplicity Studio or download it from our GitHub [simplicity sdk](https://github.com/SiliconLabs/simplicity_sdk)
+3. Compatible SDK version that specified in each project's readme file. You can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
 ## Project list ##
 

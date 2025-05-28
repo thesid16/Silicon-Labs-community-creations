@@ -6,7 +6,7 @@ We encourage the community to contribute their own Z-Wave protocol projects, sha
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs devices that supports Z-Wave
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 

@@ -1,7 +1,7 @@
 <table border="0">
   <tr>
     <td align="left" valign="middle">
-      <h1>EFR32 Wi-Sun Application Examples</h1>
+      <h1>EFR32 Z-Wave Application Examples</h1>
     </td>
     <td align="left" valign="middle">
       <a href="https://www.silabs.com/wireless/z-wave">

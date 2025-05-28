@@ -7,7 +7,7 @@ We urge the community to contribute their own Zigbee protocol projects, share te
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs EFR32 development kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
