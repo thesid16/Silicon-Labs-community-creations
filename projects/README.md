@@ -2,7 +2,7 @@
 
 ## Introduction ##
 
-In the original official Silicon Labs repository, we have featured a wide variety of projects, providing insights into how Silicon Labs devices and technologies work in many different real-life scenarios. Our repository covers a broad spectrum of use cases, including Bluetooth, Zigbee, Thread, Wi-Fi, etc., and integration with various sensors and peripherals. Each project highlights different aspects of the Silicon Labs software stack, illustrating how to configure, develop, and troubleshoot wireless and embedded applications on Silicon Labs hardware platforms. These resources are valuable for new developers seeking to understand and eventually develop practical IoT solutions across multiple connectivity standards.
+In the original official [Application Examples](https://github.com/SiliconLabs/application_examples) repository, we have featured a wide variety of projects, providing insights into how Silicon Labs devices and technologies work in many different real-life scenarios. Our repository covers a broad spectrum of use cases, including Bluetooth, Zigbee, Thread, Wi-Fi, etc., and integration with various sensors and peripherals. Each project highlights different aspects of the Silicon Labs software stack, illustrating how to configure, develop, and troubleshoot wireless and embedded applications on Silicon Labs hardware platforms. These resources are valuable for new developers seeking to understand and eventually develop practical IoT solutions across multiple connectivity standards.
 
 We encourage developers and enthusiasts to contribute their own application examples to this repository. By sharing your projects, you help expand the range of use cases and provide valuable learning resources for others in the community. Whether you have a unique application, an improvement to an existing example, or helpful documentation, your contributions are welcome. Please follow the contribution guidelines in the repository to submit your project or enhancement. Together, we can build a richer set of resources and accelerate innovation with Silicon Labs solutions.
 
@@ -108,32 +108,10 @@ If your PR fails any CI/CD checks:
 - Address the reported problems and push updates to your branch; the CI/CD system will re-run automatically.
 - If you encounter issues you cannot resolve, or if you believe a check is failing in error, please contact the repository maintainers by commenting on your PR or opening an issue.
 
-- **Contributors**:  
-  Responsible for ensuring their submissions meet all repository guidelines, including project structure, documentation, and code quality. Contributors should respond promptly to review feedback and CI/CD check results.
-
-- **Silicon Labs Moderators (Repository Maintainers)**:  
-  Responsible for reviewing PRs, providing feedback, maintaining the CI/CD system, and assisting contributors with integration issues. Moderators have the final authority on approving and merging contributions.
-
 By following these guidelines and leveraging the CI/CD system, we can collaboratively maintain a high standard of quality and reliability for all application examples in this repository.
-
-## What's next? ##
-
-As part of our ongoing commitment to quality and relevance, the following activities are planned for the continued improvement of this repository:
-
-- **Repository Maintenance**  
-  We will regularly review and update existing application examples to ensure compatibility with the latest Silicon Labs SDKs, hardware platforms, and development tools. This includes addressing reported issues, refining documentation, and updating code to reflect best practices and new features.
-
-- **Collaboration with Authors for AEP Integration**  
-  We are actively working with project authors to identify and port high-value community contributions into the Silicon Labs Application Example Program (AEP). This process involves evaluating projects for technical merit, ensuring they meet AEP standards, and collaborating with original authors to enhance documentation, code quality, and maintainability. Selected projects will be featured as official AEP examples, providing greater visibility and long-term support.
-
-If you are interested in having your project considered for AEP or would like to participate in maintenance activities, please reach out by opening an issue or contacting the repository maintainers.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+To report bugs in the Community Creations projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
-
-## Disclaimer ##
-
-The Simplicity SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.

@@ -22,7 +22,7 @@ This repository is dedicated to the community—created by developers, for devel
 - **z_wave_applications**
   Complete application examples utilizing the Z-Wave stack.
 
-## Supported Devices ##
+## Recommended Devices ##
 
 - [EFR32ZG28 Series 2 SoCs](https://www.silabs.com/wireless/z-wave/efr32zg28-z-wave-800-socs)
 - [Z-Wave 800 SoCs](https://www.silabs.com/wireless/z-wave/800-series-modem-soc)
@@ -38,6 +38,3 @@ To report bugs in the Application Examples projects, please create a new "Issue"
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
 
-## Disclaimer ##
-
-The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.

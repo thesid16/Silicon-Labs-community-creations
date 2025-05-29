@@ -37,7 +37,3 @@ You can refer to our [Bluetooth Applications Examples](https://github.com/Silico
 To report bugs in the Bluetooth Mesh Application Examples, please create a new "Issue" in the "Issues" section of this repo. Reference the board, project, and source files associated with the bug, and include line numbers. If you are proposing a fix, also include information on the proposed fix. These examples are provided as-is, and there is no guarantee that they will be updated to address reported issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
-
-## Disclaimer ##
-
-The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY, meaning the code provided has not been formally tested and is provided as-is. It is not suitable for production environments. This code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.

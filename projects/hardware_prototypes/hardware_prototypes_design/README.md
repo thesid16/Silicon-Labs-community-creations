@@ -24,7 +24,3 @@ By sharing hardware resources alongside software, we aim to empower the communit
 To report issues with the designs, please create a new "Issue" in the "Issues" section of this repo. Please reference the schematic, board files, and reference designs associated with the flaws, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
-
-## Disclaimer ##
-
-The Hardware Prototyping and 3D printing designs in this repository are provided AS IS. By downloading and using them, the user assumes and bears all liability emerging from the application of these examples.
