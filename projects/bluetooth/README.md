@@ -66,12 +66,12 @@ If your mesh application does not require DFU, you can remove the Bootloader App
 
 To add a bootloader, you have two options:
 
-- **Create and flash a bootloader project:**  
+- **Create and flash a bootloader project:**
     Build and flash a bootloader suitable for your device:
   - For Series 1 devices, use a Bluetooth in-place OTA DFU or Internal Storage bootloader.
   - For Series 2 devices, use a Bluetooth Apploader OTA DFU bootloader.
 
-- **Use a pre-compiled demo:**  
+- **Use a pre-compiled demo:**
     Running a pre-compiled demo from the Launcher view will flash both the bootloader and application images to your device. Afterward, you can overwrite the demo application with your own image, while the bootloader remains intact.
   - For mesh projects, use the Bluetooth Mesh - Light or Bluetooth Mesh - Switch demo.
 

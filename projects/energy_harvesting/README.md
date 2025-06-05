@@ -19,7 +19,7 @@ Whether you are designing ultra-low-power wireless sensors, batteryless IoT node
 
 ## Submodules ##
 
-- **energy_harvesting_applications**  
+- **energy_harvesting_applications**
     Complete application examples demonstrating how to implement energy harvesting with EFR32 devices, including end-to-end solutions for powering embedded systems using ambient energy sources.
 
 ## Recommended Devices ##

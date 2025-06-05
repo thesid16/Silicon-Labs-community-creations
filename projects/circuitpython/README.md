@@ -19,7 +19,7 @@ This repository is dedicated to community-created examples, projects, and resour
 
 ## Submodules ##
 
-- **circuitpython_applications**  
+- **circuitpython_applications**
   Complete application examples built with CircuitPython for EFR32 devices. These examples demonstrate end-to-end projects, such as sensor data logging, device control, and user interface implementations, providing practical starting points for your own applications.
 
 ## Recommended Devices ##

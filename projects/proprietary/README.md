@@ -28,7 +28,7 @@ We encourage the community to contribute new examples, enhancements, and ideas t
 
 ## Documentation ##
 
-Official RAIL documentation can be found at our [Developer Documentation](https://docs.silabs.com/rail/latest/) page.  
+Official RAIL documentation can be found at our [Developer Documentation](https://docs.silabs.com/rail/latest/) page.
 Official Connect Stack documentation can be found at our [Developer Documentation](https://docs.silabs.com/connect-stack/latest/) page.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
