@@ -1,6 +1,6 @@
 # Silicon Labs Community Creations
 
-Welcome to the **Silicon Labs Community Creations** repository!   
+Welcome to the **Silicon Labs Community Creations** repository!
 This space is dedicated to showcasing, celebrating, and sharing amazing projects built using **Silicon Labs (SiLabs)** technologies. Whether you're tinkering with wireless protocols, building embedded applications, or experimenting with IoT, we want to see what you've made!
 
 ## What's This About?
@@ -51,11 +51,10 @@ We regularly highlight standout community creations! If your project gets featur
 ## License
 
 All community submissions should include a license file. We recommend using [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) for open source projects.  
-Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.   
-To enable us to feature it on our repository, a [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md) needs to be signed during the Pull Request process. 
+Projects with GPLv2 or GPLv3 or similar copyleft licenses will not be accepted in PRs.
+To enable us to feature it on our repository, a [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md) needs to be signed during the Pull Request process.
 
 ---
 
-Let’s build the future together. One project at a time.   
-**– The Silicon Labs Team**
-
+Let’s build the future together. One project at a time
+– **The Silicon Labs Team**
