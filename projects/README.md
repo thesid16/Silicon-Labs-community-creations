@@ -75,7 +75,7 @@ To facilitate smooth integration and review, contributors are expected to follow
   Organize your project according to the repository’s standard format. Each project should reside in its own directory under the appropriate category, and include a clear `README.md`, source code, and any required assets.
 
 - **Folder Structure**:
-  Maintain a logical and consistent folder structure. Refer to the [Project Format Example](#project-format-example) section for guidance.
+  You are welcome to contribute these projects in any format you find suitable. However, we still strongly prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
 
 - **Documentation**:
   Provide comprehensive documentation for your project, including setup instructions, usage, and any dependencies. Well-documented projects are easier to review and maintain.
