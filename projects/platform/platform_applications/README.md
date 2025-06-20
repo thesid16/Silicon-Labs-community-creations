@@ -1,10 +1,8 @@
 # Silicon Labs Platform Applications #
 
-This repository contains platform application projects that showcase how to leverage the features and peripherals of Silicon Labs EFR32 devices. Each project demonstrates practical use cases, best practices, and integration techniques for building robust IoT solutions on Silicon Labs hardware.
+Silicon Labs have provided numerous examples of [Platform Applications Example](https://github.com/SiliconLabsSoftware/platform_applications).
 
 We invite the community to contribute their own projects, share innovative ideas, and collaborate with others. By participating, you help expand the collection of resources available to all developers and foster a vibrant ecosystem around Silicon Labs platforms. Whether you are submitting a new project, improving documentation, or providing feedback, your contributions are highly valued and appreciated.
-
-Explore the projects to accelerate your development, gain insights into platform capabilities, and connect with fellow developers in the Silicon Labs community.
 
 ## Requirements ##
 
@@ -12,22 +10,21 @@ Explore the projects to accelerate your development, gain insights into platform
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
-## Project list ##
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+
+## Project List ##
+
+Below is a list of Platform application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Documentation ##
 

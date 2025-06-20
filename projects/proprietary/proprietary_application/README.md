@@ -1,10 +1,8 @@
 # Silicon Labs Proprietary Applications #
 
-This repository contains proprietary application projects designed to demonstrate the advanced features and capabilities of Silicon Labs EFR32 devices. Each project highlights real-world use cases, integration methods, and best practices for developing secure and efficient proprietary wireless solutions on Silicon Labs hardware.
+We have provided a wide range of [Proprietary Application Examples](https://github.com/SiliconLabs/proprietary_rail) for everyone to refer to.
 
-We encourage the community to contribute their own proprietary protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with proprietary wireless technologies.
-
-Browse the available projects to accelerate your proprietary application development, deepen your understanding of the platform, and engage with other developers in the Silicon Labs community.
+We’d love for you to join in—share your own projects, tips, or improvements to help grow the community. Whether you're contributing code, refining docs, or offering feedback, your input makes a difference. Explore the examples to kickstart your development and connect with others building on Silicon Labs tech!
 
 ## Requirements ##
 
@@ -12,26 +10,21 @@ Browse the available projects to accelerate your proprietary application develop
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+
 ## Project list ##
+
+Below is a list of Proprietary application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
-
-## Project Examples ##
-
-You can refer to our [Proprietary Rail Examples](https://github.com/SiliconLabs/proprietary_rail) as a starting point.
 
 ## Documentation ##
 

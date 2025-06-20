@@ -1,6 +1,6 @@
 # Silicon Labs Bluetooth Applications #
 
-Silicon Labs have provided numerous examples of Bluetooth Applications here: https://github.com/SiliconLabsSoftware/bluetooth_applications.
+Silicon Labs have provided numerous examples for [Bluetooth Applications Example](https://github.com/SiliconLabsSoftware/bluetooth_applications).
 However, given the wide range of possibilities for Bluetooth technology, we warmly encourage you to share your own ideas. It will not only enrich and diversify the field, but also help and inspire others who are exploring similar solutions.
 
 ## Requirements ##
@@ -18,7 +18,7 @@ While all contributions are appreciated, we still prefer the [.SLS](https://docs
 
 For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
-## Project list ##
+## Project List ##
 
 Below is a list of Bluetooth application projects that have been contributed by the community.
 We sincerely appreciate these contributions, as they help expand the possibilities of Bluetooth technology and offer valuable inspiration to others.

@@ -1,35 +1,33 @@
 # Silicon Labs Wi-Sun Applications #
 
+[Wisun Application Examples](https://github.com/SiliconLabs/wisun_applications) is a good starting point to be refered.
+
 In smart grid and smart city applications, a long-range, dependable mesh topology is essential for building a resilient wide area network that is more immune to interference than other topologies. Silicon Labs' Wi-Sun solutions include a pin-to-pin compatible wireless MCU family that allows for low-power, cost-effective communication in large-scale outdoor networks with thousands of nodes.
 
-We encourage the community to contribute their own WiSun projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with WiSun technologies.
+WiSun offers a powerful platform for building innovative, cross-device solutions. We encourage you to share your projects, insights, and best practices. Your contributions help advance the ecosystem and support others tackling similar challenges.
 
 ## Requirements ##
 
 1. Silicon Labs EFR32 development kit
 2. Simplicity Studio 5
 3. Compatible SDK version that specified in each project's readme file. You can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
 ## Project list ##
+
+Below is a list of WiSun application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
-
-## Project Examples ##
-
-You can refer to our [WiSun Applications Examples](https://github.com/SiliconLabs/wisun_applications) as a starting point.
 
 ## Documentation ##
 

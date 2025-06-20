@@ -19,7 +19,7 @@ We encourage the community to contribute new examples, enhancements, and ideas t
 
 ## Submodules ##
 
-- proprietary_application
+- **proprietary_application:**
   Example projects using the Silicon Labs Connect stack for proprietary wireless applications, demonstrating features like network formation, security, and 802.15.4 compatibility.
 
 ## Recommended Devices ##

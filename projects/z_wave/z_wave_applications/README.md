@@ -1,31 +1,33 @@
 # Silicon Labs Z-Wave Applications #
 
-The Silicon Labs Z-Wave wireless solutions are end-to-end solutions with software and hardware building blocks for both controllers and end devices for home security and smart home devices including door locks, thermostats, shades, switches, and sensors. Z-Wave software provides the foundational features required in the Z-Wave specification and enables you to focus on your application with no need to be a protocol expert.
+[Z-Wave Application Examples](https://github.com/SiliconLabs/z_wave_applications) has already been featured for everyone as a great introduction.
 
-We encourage the community to contribute their own Z-Wave protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with Z-Wave wireless technologies.
+Silicon Labs Z-Wave solutions offer everything you need—hardware and software—for building smart, secure home devices like locks, thermostats, switches, and sensors. The Z-Wave stack handles the protocol so you can focus on your application.
+
+We’d love to see your Z-Wave projects! Share your ideas, code, or tips to help grow the community and support others working with Z-Wave technology.
 
 ## Requirements ##
 
 1. Silicon Labs device that supports Z-Wave
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
 ## Project list ##
+
+Below is a list of Z-Wave application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Project Examples ##
 

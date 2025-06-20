@@ -1,11 +1,9 @@
 
 # Silicon Labs Matter Applications #
 
-The Silicon Labs Matter stack provides a robust and flexible foundation for developing interoperable smart home and IoT applications. Leveraging the Matter protocol, developers can create secure, reliable, and scalable solutions that work seamlessly across a wide range of devices and ecosystems.
+Silicon Labs offers a variety of [Matter Application Examples](https://github.com/SiliconLabsSoftware/matter_applications) to help you get started with building secure, scalable, and interoperable smart home and IoT solutions using the Matter protocol.
 
-This repository is dedicated to community-created projects and contributions. Here, developers, hobbyists, and enthusiasts are encouraged to share their own Matter-based applications, collaborate on new ideas, and help each other solve challenges. By contributing your projects, code samples, or documentation, you help grow a vibrant ecosystem that benefits everyone.
-
-Explore the example applications to discover best practices, integration techniques, and innovative use cases. Whether you are new to Matter or looking to expand your existing projects, these community-driven examples serve as a valuable resource for learning, inspiration, and collaboration. Join the conversation, share your work, and help shape the future of Matter development with Silicon Labs.
+This repo is all about community collaboration—whether you're a developer, hobbyist, or enthusiast, you're welcome to share your own Matter-based projects, contribute ideas, and learn from others. By adding your code, examples, or documentation, you help grow a stronger, more innovative ecosystem.
 
 ## Requirements ##
 
@@ -14,22 +12,21 @@ Explore the example applications to discover best practices, integration techniq
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 4. Compatible Third-Party Hardware Drivers extension as specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
-## Project list ##
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+
+## Project List ##
+
+Below is a list of Matter application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 

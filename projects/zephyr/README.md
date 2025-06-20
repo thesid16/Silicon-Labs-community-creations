@@ -19,7 +19,7 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **zephyr_applications**
+- **zephyr_applications:**
   Complete application examples utilizing Zephyr.
 
 ## Recommended Devices ##

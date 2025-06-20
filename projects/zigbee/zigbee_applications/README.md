@@ -1,7 +1,6 @@
-
 # Silicon Labs Zigbee Application Examples #
 
-Silicon Labs devices support Zigbee, delivering reliable, low-power wireless connectivity for smart home, building automation, and industrial IoT applications—engineered for seamless interoperability, robust mesh networking, and future-ready Matter integration.
+Numerous [Zigbee Application Examples](https://github.com/SiliconLabsSoftware/zigbee_applications) have been developed by Silicon Labs for everyone who wants to get familiar with this technology.
 
 We urge the community to contribute their own Zigbee protocol projects, share technical insights, and work together to improve the existing materials. Your participation—whether by proposing new projects, improving documentation, or providing feedback—helps to grow the ecosystem and benefit developers working with Zigbee wireless technology.
 
@@ -10,23 +9,23 @@ We urge the community to contribute their own Zigbee protocol projects, share te
 1. Silicon Labs EFR32 development kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
 ## Project list ##
+
+Below is a list of Zigbee application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Documentation ##
 

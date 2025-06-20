@@ -1,8 +1,8 @@
 # Silicon Labs Wi-Fi Applications #
 
-Silicon Labs Wi-Fi solutions, based on the SiWx91x family of SoCs and modules, enable a variety of wireless applications such as IoT devices, smart home products, and industrial automation. This repository is dedicated to community-created SLCP (Simplicity Studio Component Project) example applications that showcase essential Wi-Fi features—including station and access point modes, secure TLS/SSL communication, cloud connectivity (MQTT, HTTP), OTA firmware updates, power management, and sensor or peripheral integration.
+[Wifi Applications Examples](https://github.com/SiliconLabsSoftware/wifi_applications) have already been featured by us for everyone to refer to.
 
-Community members are encouraged to contribute their own projects, share enhancements, and collaborate by submitting pull requests or opening issues. For setup instructions, hardware compatibility, and SDK requirements, refer to the README of each individual project.
+Wifi technology offers so many exciting possibilities, and we’d love to see what you come up with! Sharing your ideas not only adds variety and creativity to the field—it also helps and inspires others who are exploring similar paths.
 
 ## Requirements ##
 
@@ -12,22 +12,21 @@ Community members are encouraged to contribute their own projects, share enhance
 4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
 5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
+
 ## Project list ##
+
+Below is a list of Wifi application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
 
 ## Documentation ##
 

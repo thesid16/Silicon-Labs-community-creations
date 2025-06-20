@@ -19,7 +19,7 @@ This repository is a community-driven resource, welcoming contributions from dev
 
 ## Submodules ##
 
-- platform_applications
+- **platform_applications:**
   Example applications designed for EFM32 and EFR32 devices, showcasing platform-level features and typical use cases.
 
 ## Recommended Devices ##

@@ -19,7 +19,7 @@ This repository is dedicated to community-driven creations and collaboration. We
 
 ## Submodules ##
 
-- **matter_applications**
+- **matter_applications:**
     Application examples demonstrating the use of the Matter protocol on EFR32 Series 2 devices, including device commissioning, control, and interoperability with major smart home ecosystems.
 
 ## Recommended Devices ##

@@ -1,35 +1,32 @@
 # Silicon Labs Zephyr Applications #
 
-The Linux Foundation's IoT and embedded technologies department houses Zephyr, an open-source real-time operating system (RTOS) project. Zephyr is a scalable, low-footprint RTOS that supports Ethernet and Bluetooth connectivity. It provides long-term support and is certification-ready. Zephyr is lightweight, and its modular architecture makes it suitable for usage on low-resource devices and in resource-constrained environments. It offers complete hardware compatibility for a wide range of architectures, including Arm, x86, and RISC-V. This means that developers can select from a number of hardware solutions to best match Zephyr's real-time capabilities to their application's exact timing and responsiveness requirements.
+Zephyr is a lightweight, open-source RTOS from the Linux Foundation, built for low-power, resource-constrained devices. With support for Ethernet, Bluetooth, and multiple architectures like Arm, x86, and RISC-V, it’s a flexible choice for real-time embedded applications.
 
-We encourage the community to contribute their own Zephyr protocol projects, share technical insights, and collaborate to enhance the available resources. Your participation—whether through submitting new projects, refining documentation, or offering feedback—helps strengthen the ecosystem and supports developers working with Zephyr wireless technologies.
+Silicon Labs have provided many examples for [Zephyr Application Examples](https://github.com/SiliconLabs/zephyr_applications).
+We’d love to see what you build with Zephyr! Share your projects, tips, or feedback to help grow the community and support others working with this powerful platform.
 
 ## Requirements ##
 
 1. Silicon Labs EFR32 development kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+
+## Project Format ##
+
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
+
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
 ## Project list ##
+
+Below is a list of Zephyr application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
-
-## Project Format Example ##
-
-![Project Format](../../../resources/project_format.png)
-
-## Project structure ##
-
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
-
-## Project Examples ##
-
-You can refer to our [Zephyr Applications Examples](https://github.com/SiliconLabs/zephyr_applications) as a starting point
 
 ## Documentation ##
 

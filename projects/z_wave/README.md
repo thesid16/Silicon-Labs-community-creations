@@ -19,7 +19,7 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **z_wave_applications**
+- **z_wave_applications:**
   Complete application examples utilizing the Z-Wave stack.
 
 ## Recommended Devices ##

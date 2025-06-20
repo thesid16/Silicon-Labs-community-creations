@@ -1,14 +1,6 @@
 # Silicon Labs CircuitPython Applications #
 
-CircuitPython is an open-source programming language based on Python, designed specifically for microcontrollers and small embedded systems. Created and maintained by Adafruit, it uses a subset of Python 3, making it familiar to anyone with Python experience. CircuitPython is beginner-friendly, requiring no complex toolchains or compilers—just copy your code to the device’s USB drive, save, and the board automatically reloads and runs the new code. This immediate feedback loop, combined with cross-platform support for a wide variety of microcontroller boards (including many from Silicon Labs), makes it accessible and approachable for both beginners and professionals.
-
-The language features a rich library ecosystem for controlling sensors, displays, LEDs, motors, and more, enabling rapid prototyping and experimentation. With CircuitPython, you can quickly develop interactive projects such as data loggers, sensor monitors, and custom hardware interfaces. Its simplicity and flexibility make it an excellent choice for learning embedded programming, teaching STEM concepts, or building prototypes.
-
-## Project list ##
-
-| No | Project name | Author/Contributor |
-|:--:|:-------------|:---------------:|
-| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
+Silicon Labs has shared a variety of [Circuitpython Applications Examples](https://github.com/SiliconLabsSoftware/circuitpython_applications) to help you get started. But that’s just the beginning! CircuitPython opens up so many exciting possibilities, and we’d love to see what you come up with. By sharing your own ideas and projects, you’ll not only add to the creativity of the community—you’ll also inspire and support others who are exploring similar paths.
 
 ## Requirements ##
 
@@ -17,22 +9,21 @@ The language features a rich library ecosystem for controlling sensors, displays
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
 4. Compatible Third-Party Hardware Drivers extension as specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
-## Project Format Example ##
+## Project Format ##
 
-![Project Format](../../../resources/project_format.png)
+You are welcome to contribute these projects in any format you find suitable.
+However, we strongly encourage submissions to be in a form that is easily accessible and understandable to everyone.
+While all contributions are appreciated, we still prefer the [.SLS](https://docs.silabs.com/simplicity-studio-5-users-guide/latest/ss-5-users-guide-about-the-simplicity-ide/import-and-export) format whenever possible.
 
-## Project structure ##
+For more details on the recommended folder structure and contribution guidelines, please refer to the [How to Contribute](../../README.md#how-to-contribute).
 
-* **device_root**
-  * This folder contains all of the required files to run the project. The files and folders should be copied into the root folder of the device.
-  * **lib**
-    * The lib folder contains precompiled libraries provided by Adafruit, this folder provides the application logic related files too. These libraries and files are required to run the project.
+## Project List ##
 
-Ensure that the files and folders from the device_root folder are copied into the root of the target board's file system.
+Below is a list of CircuitPython application projects that have been contributed by the community.
 
-## Project Examples ##
-
-You can refer to our [Circuitpython Applications Examples](https://github.com/SiliconLabsSoftware/circuitpython_applications) as a starting point.
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 

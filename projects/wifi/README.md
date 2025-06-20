@@ -19,10 +19,10 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **wifi_applications**  
+- **wifi_applications:**  
     Complete application examples utilizing the Wi-Fi stack for standalone Wi-Fi connectivity.
 
-- **wifi_combo_applications**  
+- **wifi_combo_applications:**  
     Application examples that combine Wi-Fi with other wireless protocols (such as Bluetooth or Zigbee) for multiprotocol solutions.
 
 ## Recommended Devices ##

@@ -23,7 +23,7 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **wisun_applications**
+- **wisun_applications:**
   Complete application examples utilizing the WiSun stack.
 
 ## Recommended Devices ##

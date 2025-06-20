@@ -17,8 +17,8 @@ Kickstart your development with comprehensive resources designed to help you mas
 
 ## Submodules ##
 
-- training_examples
-  - Contains various training examples based on Silicon Labs wireless hardware and software.
+- **training_examples:**
+    Contains various training examples based on Silicon Labs wireless hardware and software.
 
 ## Documentation ##
 

@@ -19,7 +19,7 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **zigbee_applications**
+- **zigbee_applications:**
   Complete application examples utilizing the Zigbee stack.
 
 ## Recommended Devices ##

@@ -19,13 +19,13 @@ This repository is dedicated to the community—created by developers, for devel
 
 ## Submodules ##
 
-- **bluetooth_applications**
+- **bluetooth_applications:**
   Complete application examples utilizing the Bluetooth stack.
 
-- **bluetooth_peripherals**
+- **bluetooth_peripherals:**
   Examples demonstrating integration of SoC peripherals with the Bluetooth stack.
 
-- **bluetooth_stack_features**
+- **bluetooth_stack_features:**
   Examples showcasing key Bluetooth stack features, including:
   - Advertising
   - Connections
@@ -36,10 +36,10 @@ This repository is dedicated to the community—created by developers, for devel
   - NCP (Network Co-Processor)
   - System and Performance
 
-- **bluetooth_mesh_applications**
+- **bluetooth_mesh_applications:**
   Complete application examples using the Bluetooth Mesh stack.
 
-- **bluetooth_mesh_stack_features**
+- **bluetooth_mesh_stack_features:**
   Examples demonstrating key features of the Bluetooth Mesh stack.
 
 ## Recommended Devices ##

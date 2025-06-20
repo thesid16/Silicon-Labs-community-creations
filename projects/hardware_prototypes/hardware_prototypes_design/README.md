@@ -15,6 +15,8 @@ By sharing hardware resources alongside software, we aim to empower the communit
 
 ## Project list ##
 
+Below is a list of Open Hardware Prototypes that have been contributed by the community.
+
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
 | 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
