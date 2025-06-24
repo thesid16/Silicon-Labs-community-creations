@@ -1,13 +1,12 @@
-# Silicon Labs Open Hardware Prototypes #
+# Silicon Labs Open 3D Print Prototypes #
 
-Hardware design is a critical pillar of any embedded system, serving as the physical foundation upon which software operates. While software defines behavior and functionality, hardware determines the system's capabilities, performance, power efficiency, and reliability. A well-designed hardware platform ensures optimal integration with sensors, actuators, and communication interfaces, enabling the software to perform effectively in real-world conditions.
+3D printing plays a vital role in hardware prototyping, turning digital designs into physical models for testing form, fit, and function. While software defines behavior, the printed prototype validates real-world usability and design accuracy.
 
-By sharing hardware resources alongside software, we aim to empower the community with a more holistic development environment—one that supports innovation from the circuit board to the application layer.
+By sharing 3D-printable designs alongside software, we aim to support a complete development workflow—from concept to physical prototype—enabling faster iteration and innovation.
 
 ## Requirements ##
 
-- PCB Design Software: Recommended to use [EasyEDA - PCB design software](https://easyeda.com/) for its simplicity and free of charge
-- 3D printing design software
+- 3D Design Software: Recommended to use [Bambu Studio](https://bambulab.com/en/download/studio) for its simplicity and free of charge
 - 3D printer
 
 > [!Tip]
