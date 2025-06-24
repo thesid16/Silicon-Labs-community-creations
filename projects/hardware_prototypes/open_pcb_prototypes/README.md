@@ -1,6 +1,6 @@
 # Silicon Labs Open PCB Prototypes #
 
-In embedded system development, PCB prototyping bridges the gap between concept and functional hardware. It allows engineers to validate circuit behavior, test component placement, and ensure signal integrity before committing to final production.
+We have created many [PCB prototypes](https://github.com/SiliconLabsSoftware/open-pcb-prototypes) with the intention to bridge the gap between concept and functional hardware. It allows engineers to validate circuit behavior, test component placement, and ensure signal integrity before committing to final production.
 
 Unlike software, which can be iterated rapidly, hardware requires physical validation. Sharing PCB prototypes alongside firmware helps streamline development, reduce integration issues, and foster a more cohesive design process—from schematic to system-level testing.
 

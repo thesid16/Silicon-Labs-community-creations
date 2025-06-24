@@ -19,8 +19,11 @@ By sharing hardware resources alongside software, we aim to empower the communit
 
 ## Submodules ##
 
-- **hardware_prototypes_design:**
-  Complete application design incorporating Silicon Labs devices.
+- **open_3d_print_prototypes:**
+  Complete 3D prototypes design incorporating Silicon Labs devices.
+
+- **open_pcb_prototypes:**
+  Complete PCB prototypes design incorporating Silicon Labs devices.
 
 ## Reporting Design Issues and Posting Questions and Comments ##
 

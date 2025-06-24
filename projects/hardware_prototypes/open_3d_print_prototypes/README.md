@@ -1,6 +1,6 @@
 # Silicon Labs Open 3D Print Prototypes #
 
-3D printing plays a vital role in hardware prototyping, turning digital designs into physical models for testing form, fit, and function. While software defines behavior, the printed prototype validates real-world usability and design accuracy.
+[3D Prototypes](https://github.com/SiliconLabsSoftware/open-3d-print-prototypes) have already been featured by us for everyone to see. 3D printing plays a vital role in hardware prototyping, turning digital designs into physical models for testing form, fit, and function. While software defines behavior, the printed prototype validates real-world usability and design accuracy.
 
 By sharing 3D-printable designs alongside software, we aim to support a complete development workflow—from concept to physical prototype—enabling faster iteration and innovation.
 
