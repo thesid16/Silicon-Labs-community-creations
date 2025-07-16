@@ -1,6 +1,6 @@
 # Silicon Labs Wi-Sun Applications #
 
-[Wisun Application Examples](https://github.com/SiliconLabs/wisun_applications) is a good starting point to be refered.
+[Wisun Application Examples](https://github.com/SiliconLabs/wisun_applications) is a good starting point to be referred.
 
 In smart grid and smart city applications, a long-range, dependable mesh topology is essential for building a resilient wide area network that is more immune to interference than other topologies. Silicon Labs' Wi-Sun solutions include a pin-to-pin compatible wireless MCU family that allows for low-power, cost-effective communication in large-scale outdoor networks with thousands of nodes.
 

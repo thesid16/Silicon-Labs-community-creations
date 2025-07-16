@@ -2,7 +2,7 @@
 /.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # Applications
-/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer       
+/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 /projects/circuitpython/ @SiliconLabsSoftware/mmte-application-examples-maintainer

@@ -40,7 +40,7 @@ Follow the getting started guide here: [Zephyr Getting Started Guide](https://do
   |:--:|:---------------:|
   |  [Cmake](https://cmake.org/) | 3.20.5 |
   |  [Python](https://www.python.org/) | 3.10 |
-  |  [Devicetree complier](https://www.devicetree.org/) | 1.4.6 |
+  |  [Devicetree compiler](https://www.devicetree.org/) | 1.4.6 |
 
 ## Setting up the workspace ##
 
