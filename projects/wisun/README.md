@@ -19,7 +19,7 @@ Wireless Smart Ubiquitous Network (Wi-SUN) is the leading IPv6 sub-GHz mesh tech
 - Monitor and debug multiple nodes simultaneously
 - Visually analyze system performance
 
-This repository is dedicated to the community—created by developers, for developers. Here, you can find, share, and contribute Wi-Fi application examples, best practices, and innovative ideas. We encourage you to participate by submitting your own projects, improvements, and feedback. Together, we can accelerate development, solve challenges, and inspire new solutions for Wi-Fi-enabled devices. Join the conversation, collaborate, and help grow a vibrant ecosystem around Silicon Labs Wi-Fi technology!
+This repository is dedicated to the community—created by developers, for developers. Here, you can find, share, and contribute Wi-Sun application examples, best practices, and innovative ideas. We encourage you to participate by submitting your own projects, improvements, and feedback. Together, we can accelerate development, solve challenges, and inspire new solutions for Wi-Sun-enabled devices. Join the conversation, collaborate, and help grow a vibrant ecosystem around Silicon Labs Wi-Sun technology!
 
 ## Submodules ##
 
