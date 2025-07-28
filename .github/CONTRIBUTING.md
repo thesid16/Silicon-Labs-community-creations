@@ -103,6 +103,28 @@ When a project receives a contribution, it must be clear that the contributor ha
 Please check Silicon Labs [CLA document](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).
 During the pull request review process, every new contributor must sign the CLA. The CLA may be signed as an individual or on behalf of a company. Signatures are valid for a period of six months.
 
+## Contribution process
+
+### Creating an Issue
+
+Please follow the official GitHub [guide](https://opensource.guide/how-to-contribute/#opening-an-issue).
+
+### Fork the repository
+
+When you create an issue and, based on the discussion, decide to contribute your source code, please note that branching is disabled on public Silicon Labs repositories. You will need to fork the repository to your own account first. Follow the official GitHub [guide](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) for instructions. Once you have forked the repository, you can create a branch in your forked repo.
+
+### Branch Naming Convention
+
+Branch naming shall follow the following template: *IssueNumber-issue-title-goes-here*
+Example branch name:
+
+```bash
+99-bootloader-implementation
+```
+
+Issue number is necessary to maintain traceability.
+Now that you have a branch, you can start committing your code to it.
+
 ## How to contribute
 
 To contribute your application example to this repository, please follow these steps:
@@ -137,28 +159,6 @@ To contribute your application example to this repository, please follow these s
 
 7. **Merge Process**
   Once your PR is approved, it will be merged into the main repository. The review and merge process typically takes up to 5 business days.
-
-## Contribution process
-
-### Creating an Issue
-
-Please follow the official GitHub [guide](https://opensource.guide/how-to-contribute/#opening-an-issue).
-
-### Fork the repository
-
-When you create an issue and, based on the discussion, decide to contribute your source code, please note that branching is disabled on public Silicon Labs repositories. You will need to fork the repository to your own account first. Follow the official GitHub [guide](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) for instructions. Once you have forked the repository, you can create a branch in your forked repo.
-
-### Branch Naming Convention
-
-Branch naming shall follow the following template: *IssueNumber-issue-title-goes-here*
-Example branch name:
-
-```bash
-99-bootloader-implementation
-```
-
-Issue number is necessary to maintain traceability.
-Now that you have a branch, you can start committing your code to it.
 
 ## Commit Messages
 
