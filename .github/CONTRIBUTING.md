@@ -103,6 +103,41 @@ When a project receives a contribution, it must be clear that the contributor ha
 Please check Silicon Labs [CLA document](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).
 During the pull request review process, every new contributor must sign the CLA. The CLA may be signed as an individual or on behalf of a company. Signatures are valid for a period of six months.
 
+## How to contribute
+
+To contribute your application example to this repository, please follow these steps:
+
+1. **Fork the Repository**
+  Click the "Fork" button at the top right of this repository page to create your own copy under your GitHub account.
+
+2. **Clone Your Fork**
+  Clone your forked repository to your local development environment using:
+
+    ```bash
+    git clone https://github.com/<your-username>/community-creations.git
+    ```
+
+3. **Add Your Project**
+  Create a new directory for your project within the appropriate category or section of the repository. Ensure your project includes a clear and descriptive `README.md` file, source code, and any necessary assets. Please follow the [Coding Standard](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/coding_standard.md) for consistency.
+
+4. **Commit and Push Changes**
+  Stage and commit your changes with a meaningful commit message. Push your branch to your forked repository:
+
+    ```bash
+    git add .
+    git commit -m "Add <project-name>: <short description>"
+    git push origin main
+    ```
+
+5. **Create a Pull Request (PR)**
+  Navigate to the original repository and click "New Pull Request." Select your fork and branch as the source, and provide a detailed description of your contribution, including the purpose, features, and any dependencies or requirements.
+
+6. **Review and Feedback**
+  The maintainers will review your PR. Please monitor your PR for comments or requested changes. Respond promptly and make any necessary updates.
+
+7. **Merge Process**
+  Once your PR is approved, it will be merged into the main repository. The review and merge process typically takes up to 5 business days.
+
 ## Contribution process
 
 ### Creating an Issue
