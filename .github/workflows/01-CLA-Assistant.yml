@@ -1,6 +1,4 @@
 name: 01-CLA-Assistant
-## This workflow is used only for public repositories
-## uncomment the other trigger conditions for public repositories
 
 on:
   issue_comment:
@@ -16,7 +14,7 @@ permissions:
 
 jobs:
   CLAAssistant:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Create CLA Assistant Lite bot token
         uses: actions/create-github-app-token@v2

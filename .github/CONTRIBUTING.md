@@ -125,6 +125,30 @@ Example branch name:
 Issue number is necessary to maintain traceability.
 Now that you have a branch, you can start committing your code to it.
 
+## Project Format
+
+Currently, we support only two project formats:
+
+- Visual Studio Code
+- CMake
+
+How to change project format in Simplicity Studio IDE:
+
+1. **Simplicity Studio v5**
+
+   In project workspace, click on .slcp file. After that, click on `Change Target/SDK/Generators`
+
+   ![change_project_format](../resources/change_project_format.png)
+
+   After that, in the `CHANGE PROJECT GENERATOR` you select `Visual Studio Code` or `CMake`
+   ![simplicity_studio_v5](../resources/simplicity_studio_v5.png)
+
+2. **Simplicity Studio v6**
+
+   You have to select mode `Copy contents` and `Target IDE` is `VS Code GCC`
+
+![simplicity_studio_v6](../resources/simplicity_studio_v6.png)
+
 ## How to contribute
 
 To contribute your application example to this repository, please follow these steps:
