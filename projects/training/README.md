@@ -13,12 +13,12 @@
 
 # Silicon Labs Training #
 
-Hit the ground running with the latest how-to information, tutorials, and training to give you the know-how you need to accelerate your development process and get your products to market as quickly as possible.
+Kickstart your development with comprehensive resources designed to help you master Silicon Labs EFM32 and EFR32 platforms. This repository offers step-by-step tutorials, in-depth how-to guides, practical training modules, and expert tips to streamline your workflow—empowering both newcomers and experienced developers to accelerate their projects and bring products to market efficiently.
 
 ## Submodules ##
 
-- training_examples
-  - Contains various training examples based on Silicon Labs wireless hardware and software.
+- **training_examples:**
+    Contains various training examples based on Silicon Labs wireless hardware and software.
 
 ## Documentation ##
 
@@ -26,10 +26,6 @@ Official documentation can be found at our [Developer Documentation](https://doc
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-To report bugs in the Application Examples projects, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+To report bugs, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
 Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
-
-## Disclaimer ##
-
-The Gecko SDK suite supports development with Silicon Labs IoT SoC and module devices. Unless otherwise specified in the specific directory, all examples are considered to be EXPERIMENTAL QUALITY which implies that the code provided in the repos has not been formally tested and is provided as-is.  It is not suitable for production environments.  In addition, this code will not be maintained and there may be no bug maintenance planned for these resources. Silicon Labs may update projects from time to time.

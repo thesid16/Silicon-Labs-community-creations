@@ -2,27 +2,20 @@
 /.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # Applications
-/projects/bluetooth/bluetooth_applications/  @SiliconLabsSoftware/mmte-application-examples-maintainer       
-/projects/bluetooth/bluetooth_mesh_applications/    @SiliconLabsSoftware/mmte-application-examples-maintainer
-
+/projects/bluetooth/  @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/circuitpython/ @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/energy_harvesting/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/platform/ @silabs-Joe @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/zephyr/   @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/zigbee/   @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/hardware_prototypes/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/matter/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/platform/platform_applications/ @silabs-Joe @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/wifi/wifi_applications/ @SiliconLabsSoftware/mmte-application-examples-maintainer
 /projects/z_wave/ @laurge
+/projects/zephyr/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/zigbee/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/openthread/ @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # TBD
-# /projects/bluetooth/bluetooth_mesh_stack_features/  @silabs-juha
-# /projects/bluetooth/bluetooth_peripherals/          @silabs-juha
-# /projects/bluetooth/bluetooth_stack_features/       @silabs-juha
 # /projects/proprietary/  @silabs-TiborL
 # /projects/wisun/
-# /projects/wifi/
-# /projects/openthread/
-# /projects/matter/
-# /projects/hardware/
 # /projects/iot_utilities/
-
-# /projects/middleware/nfc/
 # /projects/training/

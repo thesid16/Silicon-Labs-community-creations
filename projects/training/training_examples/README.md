@@ -1,16 +1,16 @@
-# Silicon Labs Wi-Fi Combo Applications #
+# Silicon Labs Training #
 
-Silicon Labs Wi-Fi Combo Applications leverage the SiWx91x family of SoCs and modules to demonstrate combined Wi-Fi use cases, such as simultaneous station and access point operation, Wi-Fi/Bluetooth coexistence, and integration with cloud services. This repository features community-created examples that highlight multi-protocol connectivity, secure communication, OTA updates, and advanced power management for IoT, smart home, and industrial applications.
+This repository provides hands-on training examples for developing applications on Silicon Labs EFR32 devices. Each example is designed to teach key concepts, demonstrate integration techniques, and showcase best practices for building secure and efficient wireless solutions using Silicon Labs hardware.
 
-Community members are invited to contribute their own combo application projects, suggest improvements, and collaborate by submitting pull requests or opening issues. For detailed setup steps, hardware compatibility, and SDK requirements, please refer to the README file included with each project.
+We invite learners and contributors to explore these training projects, share their own examples, and collaborate to expand the collection. Whether you are submitting new training materials, improving documentation, or providing feedback, your involvement helps foster a stronger developer community.
+
+Use these examples to accelerate your learning, gain practical experience with the platform, and connect with others working on Silicon Labs technologies.
 
 ## Requirements ##
 
-1. Silicon Labs SiWx91x development kit
+1. Silicon Labs EFR32 Development Kit
 2. Simplicity Studio 5
 3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
-4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
-5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
 
 ## Project Format ##
 
@@ -22,7 +22,7 @@ For more details on the recommended folder structure and contribution guidelines
 
 ## Project list ##
 
-Below is a list of Wifi Combo application projects that have been contributed by the community.
+Below is a list of Training application projects that have been contributed by the community.
 
 | No | Project name | Author/Contributor |
 |:--:|:-------------|:---------------:|
@@ -30,7 +30,7 @@ Below is a list of Wifi Combo application projects that have been contributed by
 
 ## Documentation ##
 
-The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
+Official documentation can be found at our [Developer Documentation](https://www.silabs.com/support/training.ap-language_english) page.
 
 ## Reporting Bugs/Issues and Posting Questions and Comments ##
 

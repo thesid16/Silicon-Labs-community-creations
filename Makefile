@@ -1,7 +1,10 @@
-#This is  the main makefile for this repository
-#This makefile will build the entire project
+.SUFFIXES:
+.PHONY: all
 
-#### TODO ####
-# Add the following targets to this makefile
-#1. all: This target will build all the projects in the repository
-#2. clean: This target will remove all the generated files
+TARGET ?= clean_build
+TYPE ?= Release
+
+all: build
+
+build:
+	@echo 'Building $@...!'

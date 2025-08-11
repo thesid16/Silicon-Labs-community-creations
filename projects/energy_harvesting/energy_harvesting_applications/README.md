@@ -1,68 +1,28 @@
 # Silicon Labs Energy Harvesting Applications - Simplicity SDK Extension #
 
-This repo contains documentation, demos, examples and all the code needed for the Energy Harvesting extension. The content of the repository is meant to be accessed through Silicon Labs Simplicity Studio and should not be used directly.
 
-## Project Examples ##
-[Energy Harvesting Examples](https://github.com/SiliconLabs/energy_harvesting_applications)
+Silicon Labs provides a range of [Energy Harvesting Examples](https://github.com/SiliconLabsSoftware/energy_harvesting_applications) to help you explore practical implementations and accelerate your development process. These examples demonstrate key concepts and use cases, but they only scratch the surface of what’s possible. We encourage you to contribute your own projects and ideas—your insights can help expand the ecosystem, foster collaboration, and support others working on similar energy-efficient solutions.
+
+This repository provides comprehensive documentation, demonstration projects, example applications, and all necessary source code for the Energy Harvesting extension for Silicon Labs devices. It is designed to be integrated with Silicon Labs Simplicity Studio, enabling developers to explore, evaluate, and build energy harvesting solutions using supported hardware and software tools. While you can browse the repository, it is recommended to access and use its content through Simplicity Studio for the best experience, as direct usage outside the IDE may not be fully supported.
 
 ## Requirements ##
 
-### Hardware ###
+1. Silicon Labs EFR32 Development Kit
+2. Simplicity Studio 5
+3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
+4. Compatible Third-Party Hardware Drivers extension as specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+5. Power profiling tool: [Qoitech Otii Ace Pro](https://www.qoitech.com/otii-ace/)
 
-- [xG22-EK8200A](https://www.silabs.com/development-tools/wireless/efr32xg22e-energy-harvesting-explorer-kit?tab=overview) - EFR32xG22E Energy Harvesting Explorer Kit
-- [xG24-EK2703A](https://www.silabs.com/development-tools/wireless/efr32xg24-explorer-kit?tab=overview) - xG24 Explorer Kit
+## Project List ##
 
-### Software ###
+Below is a list of Energy Harvesting application projects that have been contributed by the community.
 
-- [Simplicity Studio v5 IDE](https://www.silabs.com/developers/simplicity-studio)
-- [Simplicity SDK Version 2024.6.2](https://github.com/SiliconLabs/simplicity_sdk/releases/tag/v2024.6.2)
-- [Simplicity Connect Mobile App](https://www.silabs.com/developer-tools/simplicity-connect-mobile-app)
+| No | Project name | Author/Contributor |
+|:--:|:-------------|:---------------:|
+| 1  |[Your project name] | [Your GitHub name + link to your GitHub] |
 
-### External tools ###
+## Reporting Bugs/Issues and Posting Questions and Comments ##
 
-- Power profiling tool: [Qoitech Otii Ace Pro](https://www.qoitech.com/otii-ace/)
+To report bugs, please create a new "Issue" in the "Issues" section of this repo. Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
 
-## How to add to Simplicity Studio IDE ##
-
-- Clone the repository somewhere on your PC
-
-  `git clone https://github.com/SiliconLabs/energy_harvesting_applications.git`
-
-- Add the SDK extension to the SiSDK
-
-  - In Simplicity Studio go to **Preferences** → **Simplicity Studio** → **SDKs** and select the Simplicity SDK Suite to which the SDK extension will be added. Click **Add Extension…**
-  - Click **Browse** and navigate to the root folder of the package above and click **Select Folder**.
-  - The SDK extension should be displayed in the Detected SDK Extension window with the **Energy Harvesting** name, version, and path. Click **OK** and then **Trust** and **Apply and Close**.
-  - Restart Simplicity Studio
-
-> Make sure that **Evaluation** quality software components are enabled in the Software Component view.
-
-
-## Drivers ##
-
-<table>
-    <tbody>
-        <tr>
-            <td colspan="3" align="left"><b>Power Management</b></td>
-        </tr>
-      <tr></tr>
-        <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;AEM13920 - Energy Harvesting PMIC</td>
-            <td>
-                <a href="./driver/public/aem13920/">Driver</a>
-            </td>
-            <td>
-                <a href="./driver/docs/AEM13920.md">Document</a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-## Report Bugs & Get Support ##
-
-To report bugs in the [Energy Harvesting Extension](https://github.com/SiliconLabs/energy_harvesting_applications) projects, you can either
-
-- create a new "Issue" in the "Issues" section of this repo
-- or report any issues you found to us via [Silicon Labs Community](https://www.silabs.com/community)
-
-Please reference the board, project, and source files associated with the bug, and reference line numbers. If you are proposing a fix, also include information on the proposed fix. Since these examples are provided as-is, there is no guarantee that these examples will be updated to fix these issues.
+Questions and comments related to these examples should be made by creating a new "Issue" in the "Issues" section of this repo.
