@@ -2,17 +2,8 @@
 /.github/CODEOWNERS @SiliconLabsSoftware/devservices-admins @SiliconLabsSoftware/mmte-application-examples-maintainer
 
 # Applications
-/projects/bluetooth/  @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/circuitpython/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/energy_harvesting/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/hardware_prototypes/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/matter/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/platform/platform_applications/ @silabs-Joe @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/wifi/wifi_applications/ @SiliconLabsSoftware/mmte-application-examples-maintainer
+/projects/platform/platform_applications/ @silabs-Joe
 /projects/z_wave/ @laurge
-/projects/zephyr/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/zigbee/ @SiliconLabsSoftware/mmte-application-examples-maintainer
-/projects/openthread/ @SiliconLabsSoftware/mmte-application-examples-maintainer
 /campaigns/XIAO-Showdown-2025 @SiliconLabsSoftware/community-creations-campaigns-reviewers
 
 # TBD
