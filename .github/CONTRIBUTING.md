@@ -197,6 +197,43 @@ A detailed description of what was implemented should be provided.
 Another line of really good description.
 ```
 
+## Documentation Requirements
+   For successful PR review following documentation is required to be part of the project and ideally should be placed in readme.md file of the project repository
+
+**1. Project Title**
+- A clear and concise name that reflects the purpose of your project.
+
+**2. Project Description**
+- A written overview that includes:
+    - The problem being addressed.
+    - Silabs product used to solve the problem
+    - Any unique or innovative aspects of the project.
+
+**3. System Diagram**
+- A visual representation of how the components interact (e.g., sensors, silabs products, connectivity, cloud services, etc.).
+
+**4. Build Instructions and Expected Outcomes**
+- Step by step guide on the hardware and software setup of the project
+- Screenshot of projects or a demo video detailing progress of the build during its various steps
+- Screenshots or video demonstrating user interface and features of the project in action
+
+**5. Code Repository (Mandatory)**
+- The code must be:
+    - Fully functional and complete.
+    - Well-commented and organized.
+    - Include any necessary documentation or setup instructions.
+- Quality of the Code and comments will be evaluated as part of the PR review.
+
+**6. Technical Write-Up**
+
+   This is not mandatory but highly recommended.
+- A detailed explanation of:
+    - Technologies and components used.
+    - The overall system architecture and IoT functionality.
+    - Brief synopsis of code flow
+    - Challenges encountered and how they were solved.
+    - Considerations for scalability, interoperability, and future improvements.
+
 ## Pull Request Guideline
 
 Okay, you finished your work and committed all your changes to your branch. Time to create a pull request.
