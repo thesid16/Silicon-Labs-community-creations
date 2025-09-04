@@ -18,7 +18,7 @@ Anyone! Whether you're a seasoned engineer, student, or hobbyist, if you've crea
 
 ## What Kind of Projects Can I Submit?
 
-You can share any project that involves Silicon Labs products or tools, including (but not limited to):
+You can share any completed, working project that involves Silicon Labs products or tools, including (but not limited to):
 
 - Wireless applications (Zigbee, Bluetooth, Wi-Fi, Thread, Matter etc.)
 - Embedded software for SiLabs MCUs
